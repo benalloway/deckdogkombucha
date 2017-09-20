@@ -1,105 +1,171 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<!-- title -->
-	<title>Deck Dog Kombucha</title>
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+          <h1>Welcome to Foundation</h1>
+        </div>
+      </div>
 
-	<!-- links -->	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="style/style.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+          <div class="callout">
+            <h3>We&rsquo;re stoked you want to try Foundation! </h3>
+            <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
+            <p>Once you've exhausted the fun in this document, you should check out:</p>
+            <div class="grid-x grid-padding-x">
+              <div class="large-4 medium-4 cell">
+                <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
+              </div>
+              <div class="large-4 medium-4 cell">
+                <p><a href="http://zurb.com/university/code-skills">Foundation Code Skills</a><br />These online courses offer you a chance to better understand how Foundation works and how you can master it to create awesome projects.</p>
+              </div>
+              <div class="large-4 medium-4 cell">
+                <p><a href="http://foundation.zurb.com/forum">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowlege.</p>
+              </div>
+            </div>
+            <div class="grid-x grid-padding-x">
+              <div class="large-4 medium-4 medium-push-2 cell">
+                <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
+              </div>
+              <div class="large-4 medium-4 medium-pull-2 cell">
+                <p><a href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-	<!-- meta tags -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta name="description" content="Deck Dog Kombucha is an authentic organic kombucha, made locally in Richmond Virginia">
-</head>
-<body>
+      <div class="grid-x grid-padding-x">
+        <div class="large-8 medium-8 cell">
+          <h5>Here&rsquo;s your basic grid:</h5>
+          <!-- Grid Example -->
 
+          <div class="grid-x grid-padding-x">
+            <div class="large-12 cell">
+              <div class="primary callout">
+                <p><strong>This is a twelve cell section in a grid-x.</strong> Each of these includes a div.callout element so you can see where the cell are - it's not required at all for the grid.</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid-x grid-padding-x">
+            <div class="large-6 medium-6 cell">
+              <div class="primary callout">
+                <p>Six cell</p>
+              </div>
+            </div>
+            <div class="large-6 medium-6 cell">
+              <div class="primary callout">
+                <p>Six cell</p>
+              </div>
+            </div>
+          </div>
+          <div class="grid-x grid-padding-x">
+            <div class="large-4 medium-4 small-4 cell">
+              <div class="primary callout">
+                <p>Four cell</p>
+              </div>
+            </div>
+            <div class="large-4 medium-4 small-4 cell">
+              <div class="primary callout">
+                <p>Four cell</p>
+              </div>
+            </div>
+            <div class="large-4 medium-4 small-4 cell">
+              <div class="primary callout">
+                <p>Four cell</p>
+              </div>
+            </div>
+          </div>
 
-<!-- container wrapper site -->
- <div class="container-fluid wrapper-site">
+          <hr />
 
-<!-- nav -->
-<nav class="navbar navbar-default navbar-fixed-top">	  
-	  <div class="container-fluid">
-	    <div class="navbar-header">	      
-	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">	      
-	        <span class="sr-only">Toggle navigation</span>	     
-	        <span class="icon-bar"></span>	      
-	        <span class="icon-bar"></span>	      
-	        <span class="icon-bar"></span>	      
-	      </button>	      
-	      <a class="navbar-brand" href="#top">Deck Dog Kombucha</a>	    
-	    </div>
-	   
-	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#kombucha">The Kombucha</a></li> 
-	        <li><a href="#creator">The Creator</a></li>
-	        <li><a href="#contact">Contact The Creator</a></li>
-	      </ul>
+          <h5>We bet you&rsquo;ll need a form somewhere:</h5>
+          <form>
+            <div class="grid-x grid-padding-x">
+              <div class="large-12 cell">
+                <label>Input Label</label>
+                <input type="text" placeholder="large-12.cell" />
+              </div>
+            </div>
+            <div class="grid-x grid-padding-x">
+              <div class="large-4 medium-4 cell">
+                <label>Input Label</label>
+                <input type="text" placeholder="large-4.cell" />
+              </div>
+              <div class="large-4 medium-4 cell">
+                <label>Input Label</label>
+                <input type="text" placeholder="large-4.cell" />
+              </div>
+              <div class="large-4 medium-4 cell">
+                <div class="grid-x">
+                  <label>Input Label</label>
+                  <div class="input-group">
+                    <input type="text" placeholder="small-9.cell" class="input-group-field" />
+                    <span class="input-group-label">.com</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="grid-x grid-padding-x">
+              <div class="large-12 cell">
+                <label>Select Box</label>
+                <select>
+                  <option value="husker">Husker</option>
+                  <option value="starbuck">Starbuck</option>
+                  <option value="hotdog">Hot Dog</option>
+                  <option value="apollo">Apollo</option>
+                </select>
+              </div>
+            </div>
+            <div class="grid-x grid-padding-x">
+              <div class="large-6 medium-6 cell">
+                <label>Choose Your Favorite</label>
+                <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
+                <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
+              </div>
+              <div class="large-6 medium-6 cell">
+                <label>Check these out</label>
+                <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
+                <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
+              </div>
+            </div>
+            <div class="grid-x grid-padding-x">
+              <div class="large-12 cell">
+                <label>Textarea Label</label>
+                <textarea placeholder="small-12.cell"></textarea>
+              </div>
+            </div>
+          </form>
+        </div>
 
-	    </div>   <!-- /.navbar-collapse -->
-	  </div>     <!-- /.container-fluid -->
-	</nav>
-<!-- hero image -->
-
-<div class="wrapper" id="top">
-	<img src="media/rva2.jpg" class="img-responsive">
-</div>
-
-<!-- Kombucha -->
-
-<div class="row wrapper-content" id="kombucha">
-        <!-- Kombucha benefits -->
-        <div class="col-sm-6">
-          <img class="img-circle" src="media/kombucha1.jpg" alt="kombucha placeholder image" width="140" height="140">
-          <h2 class="text-center">Kombucha Benefits</h2>
-          <p>Kombucha is known to have many awesome health benefits, including: Cancer prevention properties, it will reduce joint pain, improve your immune system, it contains cleansing and detoxifying properties, increases Energy and it also assists weight-loss by improving digestion!</p>
-        </div><!-- /.col-lg-4 -->
-        
-        <div class="col-sm-6">
-          <img class="img-circle" src="media/kombucha2.jpg" alt="kombucha placeholder image" width="140" height="140">
-          <h2 class="text-center">My Kombucha</h2>
-          <p>My Kombucha is made small batch style, organic, vegan, non-gmo, gluten-free ,dairy free, fermented tea. I have 2.5 years of experience and have never encountered any issues. I use a 5 tea blend to give my Kombucha a unique flavor; Green Tea, Black Tea, Oolong Tea, Pu-erh Tea and Yerba Mate</p>
-        </div><!-- /.col-lg-4 -->
-        
-        <div class="col-sm-6">
-          <img class="img-circle" src="media/scoby1.jpg" alt="kombucha placeholder image" width="140" height="140">
-          <h2 class="text-center">What is Kombucha Tea?</h2>
-          <p>Kombucha starts out as a sugary tea, which is then fermented with the help of a scoby. <em>SCOBY</em> is actually an acronym for <em>symbiotic culture of bacteria and yeast.</em> It's very close cousins to the mother used to make vinegar. The scoby bacteria and yeast eat most of the sugar in the tea, transforming the tea into a refreshingly fizzy, slightly sour fermented (but mostly non-alcoholic) beverage that is relatively low in calories and sugar.</p>
-        </div><!-- /.col-lg-4 -->
-
-        <div class="col-sm-6">
-          <img class="img-circle" src="media/scoby2.jpg" alt="kombucha placeholder image" width="140" height="140">
-          <h2 class="text-center">The Scoby</h2>
-          <p>Let's talk about that scoby; It floats, it's rubbery and a bit slippery, brown stringy bits hang from it, and it transforms sugary tea into something fizzy and sour. There are a lot of theories about why the bacteria and yeast form this jelly-like layer of cellulose at the top of the kombucha. The most plausible is that it protects the fermenting tea from the air and helps maintain an environment inside the jar that shields it from unfriendly bacteria.</p>
-          
-        </div><!-- /.col-lg-4 -->
-</div>
-
-
-<!-- creator -->
-<div class=""><h2 class="text-center">The Creator</h2></div>
-<div class="row wrapper-content" id="creator">
-	<div class="col-sm-6">
-          <img class="img-circle" src="media/chris1.jpg" alt="kombucha placeholder image" width="140" height="140">
-    </div>     
-    <div class="col-sm-6 wrapper-content">
-          <p>Let's talk about Chris Johnson, the creator of Deck Dog Kombucha and a full time chill dude.</p>
-          <p class="text-center"><a class="btn btn-default" href="#contact" role="button">HIT ME UP</a></p>
+        <div class="large-4 medium-4 cell">
+          <h5>Try one of these buttons:</h5>
+          <p><a href="#" class="button">Simple Button</a><br/>
+          <a href="#" class="success button">Success Btn</a><br/>
+          <a href="#" class="alert button">Alert Btn</a><br/>
+          <a href="#" class="secondary button">Secondary Btn</a></p>
+          <div class="callout">
+            <h5>So many components, girl!</h5>
+            <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
+            <a href="http://foundation.zurb.com/sites/docs/" class="small button">Go to Foundation Docs</a>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
 
-<!-- contact -->
-
-<!-- footer -->
-<footer class="footer text-center">
-	<p>&copy; Deck Dog Kombucha</p>
-</footer>
-
-<!-- ./container-wrapper -->
- </div>
-</body>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>
