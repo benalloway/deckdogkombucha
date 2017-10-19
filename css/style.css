@@ -1,0 +1,234 @@
+/* wrapper */
+
+#top {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#nav {
+  color: #AE862C;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  color: #AE862C;
+}
+
+
+.navbar-default {
+  background-color: #FEFFFE;
+  color: #AE862C;
+  border-color: #1A331D;
+}
+
+/* ABOUT SECTION */
+#about {
+  background-color: #FEFFFE;
+}
+
+#about p {
+  padding: 5%;
+  font-size: 1.5em;
+  font-weight: 200;
+}
+
+
+.intro-text-skills {
+  padding: 5%;
+  font-size: 16px;
+}
+
+.profile-pic {
+  margin: 0 auto;
+  padding: 5% 5% 5% 5%;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+/* PORTFOLIO SECTION */
+
+#portfolio p {
+    padding: 5%;
+    font-size: 1em;
+}
+
+#portfolio-img h3 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    font-size: 1.5em;
+
+}
+
+#portfolio-img span {
+  color: white;
+  letter-spacing: ;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 3%;
+}
+
+#portfolio h2 {
+  padding: 5%;
+}
+
+#portfolio .row {
+  padding: 5%;
+}
+
+#portfolio-img {
+  padding: 10px;
+}
+
+/* CONTACT SECTION */
+
+#contact-btn {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 28px;
+  padding: 10px 30px 10px 30px;
+  color: #AF872C;
+  border-color: #1A331D;
+}
+
+#contact-btn:hover {
+  background-color: #1A331D;
+}
+
+#contact-btn:active {
+  border-color: #1A331D;
+}
+
+#contact p {
+  text-align: left;
+  padding: 2.5%;
+  font-size: 14px;
+}
+
+#contact h2 {
+  padding: 5%;
+}
+
+form {
+  padding: 2.5%;
+}
+
+/* FOOTER */
+
+.panel-body {
+  padding: 30px;
+}
+
+.panel-footer {
+  padding: 30px;
+}
+
+/* MOBILE BUTTON */
+
+#goToTop {
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  cursor: pointer;
+  padding: 10;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+#goToTop:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+
+
+/* MEDIA QUERIES SECTION */
+
+@media (min-width:768px) {
+  #contact p {
+  padding: 5%;
+  font-size: 1.5em;
+}
+
+  #portfolio p {
+      padding: 5%;
+      font-size: 1.25em;
+  }
+
+  #portfolio-img h3 {
+    font-size: 1.75em;
+  }
+
+  #goToTop {
+    display: none;
+  }
+
+
+  #about p {
+    font-size: 1.5em;
+  }
+
+  .intro-text-skills {
+    font-size: 1.5em;
+  }
+
+}
+
+@media (min-width: 1200px) {
+   #contact p {
+  padding: 5%;
+  font-size: 1.5em;
+}
+
+#portfolio p {
+    padding: 5%;
+    font-size: 1em;
+}
+
+  #portfolio-img h3 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 3em;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+
+  #top {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+}
+
+@media (min-width: 1800px) {
+
+
+  #portfolio-img h3 {
+    font-size: 2.25em;
+  }
+
+ .img-circle {
+  height: 400px;
+  margin: 7% auto;
+ }
+
+  #top {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 2em;
+
+  }
+}
