@@ -123,6 +123,9 @@ form {
 }
 
 /* FOOTER */
+.panel {
+  margin-bottom: 0px;
+}
 
 .panel-body {
   padding: 30px;
@@ -135,7 +138,7 @@ form {
 /* MOBILE BUTTON */
 
 #goToTop {
-  display: block;
+  display: none;
   position: fixed;
   bottom: 20px;
   right: 30px;
@@ -155,6 +158,10 @@ form {
 /* MEDIA QUERIES SECTION */
 
 @media (min-width:768px) {
+  #goToTop {
+    display: none !important;
+  }
+
   #contact p {
   padding: 5%;
   font-size: 1.5em;
@@ -169,11 +176,6 @@ form {
     font-size: 1.75em;
   }
 
-  #goToTop {
-    display: none;
-  }
-
-
   #about p {
     font-size: 1.5em;
   }
@@ -185,7 +187,8 @@ form {
 }
 
 @media (min-width: 1200px) {
-   #contact p {
+
+#contact p {
   padding: 5%;
   font-size: 1.5em;
 }
